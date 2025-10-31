@@ -13,3 +13,10 @@ npx @modelcontextprotocol/inspector uv run research_server.py
 ```bash
 uv run mcp_chatbot.py
 ```
+
+
+### Deployment
+- Push code to github
+- Gen `requirements.txt` for render using (it not support uv yet)
+  - `uv pip compile pyproject.toml > requirements.txt`
+- Run `echo "python-3.11.11" > runtime.txt`
